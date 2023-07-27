@@ -1,0 +1,452 @@
+body
+{
+      background-image:linear-gradient(rgba(92, 151, 148, 0.5) 100% , rgba(70, 148, 160, 0.5)), url(ekeeda-bg.png);
+}
+.navbar
+{
+      padding-top:20px;
+      animation-name: mukul3;
+      animation-duration:2s;
+      animation-iteration-count:1;
+}
+@keyframes mukul3
+{
+     from 
+     {
+           margin-top:-150px;
+     }
+     to 
+     {
+           padding-top: 20px;
+     }
+}
+#heading-lectures
+{
+      font-size:12px;
+      color: rgb(102, 87, 87);
+      margin-top:50px;
+      letter-spacing:3px;
+      animation-name: mukul2;
+      animation-duration:2s;
+      animation-iteration-count:1;
+}
+#paragraph-1
+{
+      font-weight:bolder;
+      font-size:28px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      margin-top:-10px;
+      letter-spacing:2px;
+      animation-name: mukul2;
+      animation-duration:3s;
+      animation-iteration-count:1;
+}
+@keyframes mukul2
+{
+      from 
+      {
+           margin-left: -400px;
+           color: rgb(251, 247, 247);
+      }
+      to 
+      {
+           margin-right: 100px;
+           color: rgb(6, 6, 6);
+      }
+}
+#div-form
+{
+      margin-top: -30px;
+      width:70%;
+      height:auto;
+      margin-bottom:50px;
+      background-color:beige;
+      box-shadow: 1px 1px 10px 0px;
+      padding-bottom:5px;
+      padding-left:20px;
+      margin-bottom:5px;
+      animation-name: mukul;
+      animation-duration:2s;
+      animation-iteration-count: infinite;
+}
+@keyframes mukul
+{
+    25%
+    {
+           box-shadow: 1px 1px 10px 5px grey;
+    }
+    50%
+    {
+           box-shadow: 1px 1px 10px 5px red;
+    }
+    75%
+    {
+           box-shadow: 1px 1px 10px 5px green;
+    }
+    100%
+    {
+           box-shadow: 1px 1px 10px 5px orangered;
+    }
+}
+#form-des
+{
+      font-weight:900;
+      word-spacing:5px;
+      letter-spacing:1px;
+      padding-top:20px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#dis-flex
+{
+      display: flex;
+      justify-content: space-between;
+}
+#dis-flex2
+{
+      margin-top: 10px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgb(138, 228, 158);
+      border-radius: 10px;
+      outline: 5px solid green;
+      padding-top:2px;
+      padding-bottom:2px;
+}
+#img1
+{
+     margin-top: 50px;
+     display: block;
+}
+#dis-flex2:hover
+{
+      background-color: rgb(83, 241, 83);
+}
+.num
+{
+      font-weight: bolder;
+}
+#para-1
+{
+      float: left;
+      font-size:18px;
+      margin-top: 10px;
+}
+#para-2
+{
+      float: right;
+      font-size:18px;
+      margin-top: 10px;
+}
+#para-3
+{
+      letter-spacing: 1px;
+      word-spacing: 3px;
+      font-weight:bold;
+      margin-top: 10px;
+      padding-bottom: 20px;
+}
+#para-4
+{
+      letter-spacing:1px;
+      word-spacing: 3px;
+      font-weight: bold;
+}
+.ans1
+{
+      margin-right:20px;
+}
+.radio-ans
+{
+      margin-right: 50px;
+      font-weight: bolder;
+}
+#thumb-style
+{
+      color: rgb(246, 174, 7);
+}
+textarea
+{
+      clear:both;
+      width:100%;
+      height: 80px;
+      margin-top: 20px;
+      padding:10px;
+      background-color: rgb(202, 243, 229);
+}
+.btn
+{
+      display: block;
+      background-color: darkgreen;
+      color: white;
+      font-weight: bolder;
+      width: 100%;
+      margin-top: 30px;
+      border-radius: 10px;
+      margin-bottom:10px;
+}
+.btn:hover 
+{
+      outline:2px solid yellow;
+}
+
+@media only screen and (min-width:768px) and (max-width:992px)
+{
+    .navbar
+    {
+           padding-top:10px;
+          
+    }
+    #img-ekeeda
+    {
+           width:150px;
+           height: 100px;
+    }
+    #paragraph-1
+    {
+     
+           font-size:24px;
+           letter-spacing:1px;
+    }
+    #img1
+    {
+           width:180px;
+           height:100px;
+    }
+    #img2
+    {
+           width:100px;
+           height:100px;
+    }
+    #div-form
+    {
+           width: 100%;
+           height: auto;
+           margin-bottom: 50px;
+    }
+    #form-des
+    {
+           font-size:14px;
+           letter-spacing: normal;
+    }
+    #para-1
+    {
+           font-size: 14px;
+           font-weight: bold;
+    }
+    textarea
+    {
+     margin-top: 0px;
+    }
+    #para-2
+    {
+           font-size: 14px;
+           font-weight: bold;
+    }
+    #para-3
+    {
+           font-size: 13px;
+           font-weight: bolder;
+           word-spacing: normal;
+           padding-bottom: 0px;
+    }
+    #para-4
+    {
+           font-size: 12px;
+           word-spacing: normal;
+           letter-spacing: normal;
+           font-weight: bolder;
+    }
+    .btn 
+    {     
+           margin-bottom:5px;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px)
+{
+      #div-nav
+     {
+           display: flex;
+           justify-content: center;
+     }
+      #heading-lectures
+      {
+           text-align: center;
+      }
+      #paragraph-1
+      {
+           text-align: center;
+      }
+      #img-div
+      { 
+           display: flex;
+           flex-direction: column;
+           align-items:center;
+           margin-bottom:100px;
+      }
+      #form-des
+      {
+           font-size: 14px;
+      }
+      #para-1
+      {
+           font-size: 13px;
+           font-weight: bold;
+      }
+      #para-2
+      {
+           font-size: 13px;
+           font-weight: bold;
+      }
+      #para-3
+      {
+           font-size:14px;
+           font-weight: bolder;
+           word-spacing: normal;
+      }
+      .btn
+      {
+           margin-bottom: 5px;
+      }
+      #div-form
+      {
+           margin-bottom: 50px;
+      }
+
+}
+
+@media only screen and (min-width:300px) and (max-width:576px)
+{
+     #div-nav
+     {
+           display: flex;
+           justify-content: center;
+     }
+      #heading-lectures
+      {
+           text-align: center;
+      }
+      #paragraph-1
+      {
+           text-align: center;
+      }
+      #img-div
+      { 
+           display: flex;
+           flex-direction: column;
+           align-items:center;
+           margin-bottom:100px;
+      }
+      #form-des
+      {
+           font-size:12px;
+           word-spacing: normal; 
+           letter-spacing: normal;         
+      }
+      #para-1
+      {
+           font-size:12px;
+           font-weight: bold;
+      }
+      #para-2
+      {
+           font-size:12px;
+           font-weight: bold;
+      }
+      #para-3
+      {
+           font-size:12px;
+           font-weight: bolder;
+           word-spacing: normal;
+           letter-spacing: normal;
+      }
+      #para-4
+      {
+           font-size: 13px;
+           word-spacing: normal;
+           font-weight: bolder;
+      }
+      .btn
+      {
+           margin-bottom: 5px;
+           padding: 10px;
+      }
+      #div-form
+      {
+           width:95%;
+           margin:10px;
+           margin-top:-50px;
+           margin-bottom:50px;
+      }
+
+}
+
+@media only screen and (min-width:0px) and (max-width:300px)
+{
+     #div-nav
+     {
+           display: flex;
+           justify-content: center;
+     }
+      #heading-lectures
+      {
+           text-align: center;
+      }
+      #paragraph-1
+      {
+           text-align: center;
+      }
+      #img-div
+      { 
+           display: flex;
+           flex-direction: column;
+           align-items:center;
+           margin-bottom:100px;
+      }
+      #form-des
+      {
+           font-size:11px;
+           word-spacing: normal; 
+           letter-spacing: normal;         
+      }
+      #para-1
+      {
+           font-size:11px;
+
+      }
+      #para-2
+      {
+           font-size:11px;
+          
+      }
+      #para-3
+      {
+           font-size:10px;
+           font-weight: bold;
+           word-spacing: normal;
+           letter-spacing: normal;
+      }
+      #para-4
+      {
+           font-size: 13px;
+           word-spacing: normal;
+           font-weight: bolder;
+           letter-spacing: normal;
+      }
+      textarea
+      {
+           padding: 2px;
+      }
+      .btn
+      {
+           margin-bottom: 5px;
+      }
+      #div-form
+      {
+           width:95%;
+           margin:10px;
+           margin-top:-50px;
+           margin-bottom: 50px;
+      }
+
+}
